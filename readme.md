@@ -1,0 +1,2 @@
+# C_Practice
+# C Practice  This repository contains the code I wrote while learning C. It's organized chapter by chapter and includes topic-wise examples, practice problems, and revision exercises. The purpose of this repository is to document my learning progress, revisit concepts, and improve my C skills over time.
