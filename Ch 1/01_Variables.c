@@ -10,5 +10,6 @@ int main()
     // \n new line 
 
     printf("The Output of the Program is: %d", var); // %d is used for printing an integer, it is a format specifer
+    
     return 0;
 }

@@ -6,7 +6,9 @@ This is My First C Code, Boiler Plate Code
 #include <stdio.h>
 
 // Entry Point, return value int hai, isliye int main
-int main (){
+int main ()
+{
     printf("Hello there");
+
     return 0;
 }
