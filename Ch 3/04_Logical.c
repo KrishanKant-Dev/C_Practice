@@ -9,7 +9,6 @@ int main()
     printf("Enter the value of a and b: ");
     scanf("%d %d", &a, &b);
 
-    printf("============================\n");
     printf("The value of a and b is %d \n", a && b); // logical and
 
     printf("The value of a or b is %d \n", a || b); // logical or
@@ -35,7 +34,6 @@ int main()
         {
             printf("Both are True");
         }
-        printf("\n============================");
     }
     return 0;
 }

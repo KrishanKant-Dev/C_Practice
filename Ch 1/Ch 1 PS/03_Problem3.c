@@ -6,8 +6,6 @@ int main()
 {
     float celsius, fahrenheit;
 
-    printf("============================\n");
-
     printf("Enter The Value of Temperature in Celsius: ");
     scanf("%f",&celsius);
 
@@ -15,6 +13,5 @@ int main()
 
     printf("The Temperature reading in Fahrenheit is: %.2f",fahrenheit);
 
-    printf("\n============================");
     return 0;
 }

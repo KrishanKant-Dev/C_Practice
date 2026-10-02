@@ -8,8 +8,7 @@ int main()
     int height;
     float area;
     float volume;
-    
-    printf("============================\n");
+
     printf("Enter The Value of Radius: ");
     scanf("%d",&radius,"\n");
 
@@ -20,7 +19,6 @@ int main()
     volume = area*height;
 
     printf("\nThe Volume of Cylinder is %.2f unit cube",volume);
-    printf("\n============================");
 
     return 0;
 }

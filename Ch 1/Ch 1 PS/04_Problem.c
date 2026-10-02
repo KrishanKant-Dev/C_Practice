@@ -5,8 +5,6 @@
 int main()
 {
     float principal, rate, time, simple_interest;
-
-    printf("============================\n");
     
     printf("Enter the Value of Principal, Rate and Time in Years: \n");
     scanf("%f \n%f \n%f", &principal, &rate, &time);
@@ -15,7 +13,6 @@ int main()
 
     printf("The Simple Intrest is Calculated to be: %.3f %%",simple_interest);
 
-    printf("\n============================");
     return 0;
 }
 

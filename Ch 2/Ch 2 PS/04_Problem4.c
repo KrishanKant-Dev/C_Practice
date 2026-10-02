@@ -17,8 +17,7 @@ int main()
     int k = 1;
     float result = 3*x/y-z+k;
 
-    printf("============================\n");
     printf("The Result is: %.2f", result);
-    printf("\n============================");
+
     return 0;
 }

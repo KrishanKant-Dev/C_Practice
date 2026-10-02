@@ -7,7 +7,6 @@ int main()
     printf("Enter Your age: ");
     scanf("%d", &age);
 
-    printf("============================");
     if (age > 10)
     {
         printf("\nYour age is Greater than 10");
@@ -17,6 +16,6 @@ int main()
     {
         printf("\nYour age is in Multiple of 5");
     }
-    printf("\n============================");
+
     return 0;
 }

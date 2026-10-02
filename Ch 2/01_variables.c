@@ -14,8 +14,8 @@ int main()
     // Ek baar variable define karne ke baad baar baar us variable ko define nhi karsakte
 
     // %d, %f, %c are the format specifies for integer, float and char
-    printf("============================\n");
+
     printf("The Value of a, i, j, p, q, r is : %d %d %d %d %d %d", a, i, j, p, q, r);
-    printf("\n============================");
+
     return 0;
 }

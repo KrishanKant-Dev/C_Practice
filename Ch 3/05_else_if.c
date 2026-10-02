@@ -4,9 +4,7 @@
 
 int main()
 {
-    float units_consumed, rate;
-
-    printf("============================\n");
+    float units_consumed;
     printf("Enter the Value of Electricity Units consumed: ");
     scanf("%f",&units_consumed);
 
@@ -35,6 +33,5 @@ int main()
         printf("\nYour Bill is: %.2f",units_consumed*6);
     }
     
-    printf("\n============================");
     return 0;
 }

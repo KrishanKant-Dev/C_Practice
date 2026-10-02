@@ -8,8 +8,6 @@ int main()
     int a;
     int x;
     int exp;
-  
-    printf("============================\n");
 
     printf("Enter the value of a: ");
     scanf("%d",&a);
@@ -21,6 +19,5 @@ int main()
 
     printf("\nThe Result is: %d",exp);    
   
-    printf("\n============================");
     return 0;
 }

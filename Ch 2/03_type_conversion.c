@@ -7,10 +7,9 @@ int main()
     float c = 9 / 2;
     int d = 5.6;
     
-    printf("============================\n");
     printf("The value of a/b is %f", c);
     printf("\nThe value of d is: %d",d); // Demotion
-    printf("\n============================");
+
     return 0;
 }
 

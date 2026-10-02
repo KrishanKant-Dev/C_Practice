@@ -6,8 +6,7 @@ int main()
     float b = 56.89;
     a = (int)b;
 
-    printf("============================\n");
     printf("The new value of a is: %d", a);
-    printf("\n============================");
+
     return 0;
 }

@@ -7,7 +7,6 @@ int main()
     int length;
     int breadth;
 
-    printf("============================\n");
     printf("Enter the Value of Length: ");
     scanf("%d",&length);
     printf("Enter the Value of Breadth: ");
@@ -16,7 +15,6 @@ int main()
     int area = length*breadth;
 
     printf("\nThe Area is: %d unit sq",area);
-    printf("\n============================");
 
     return 0;
 }

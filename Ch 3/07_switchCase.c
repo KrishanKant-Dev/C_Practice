@@ -4,7 +4,6 @@ int main()
 {
     int decision;
 
-    printf("============================\n");
     printf("Enter the Action you want to Perform:\n1. Pay \n2.Check Balance \n3.Score\n:");
     scanf("%d",&decision);
 
@@ -20,6 +19,5 @@ int main()
         printf("\nYour Score is Outstanding");
         break;
     }
-    printf("\n============================");
     return 0;
 }

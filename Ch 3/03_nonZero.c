@@ -4,7 +4,7 @@
 
 int main()
 {
-    printf("============================\n");
+
     if (290) // non zero
     {
         printf("This Statement is Executed\n");
@@ -24,6 +24,5 @@ int main()
     {
         printf("This Statement will not get Executed");
     }
-    printf("\n============================");
     return 0;
 }
