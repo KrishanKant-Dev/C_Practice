@@ -7,6 +7,7 @@ it
 int main()
 {
     int table_of_five[] = {5,10,15,20,25,30,35,40,45,50};
+    // we can assign elements to array using loop, refer problem 4
     for(int i = 0 ; i <10 ; i++)
     {
         printf("%d ",table_of_five[i]);

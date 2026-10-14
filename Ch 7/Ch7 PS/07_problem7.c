@@ -15,7 +15,7 @@ int main()
 
     for (int i = 0; i < 3; i++)
     {
-        printf("Table of %d:\n",2 + 5 * i - 3 * (i / 2));
+        printf("Table of %d:\n", 2 + 5 * i - 3 * (i / 2));
         for (int j = 0; j < 10; j++)
         {
             printf("%d ", tables[i][j]);

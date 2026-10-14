@@ -5,4 +5,4 @@ ii. False.
 iii. Depends.
 */
 
-// depends , and answer is vague
+// points to 4th element not 3rd

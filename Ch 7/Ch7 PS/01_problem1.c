@@ -8,13 +8,13 @@ the third element where ptr is a pointer pointing to the first element of the ar
 int main()
 {
     int arr[10];
-    int* ptr = &arr[0];
+    int *ptr = &arr[0];
     printf("Enter the Elements of Array: \n");
-    for (int i = 0;i <10;i++)
+    for (int i = 0; i < 10; i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d", &arr[i]);
     }
-    printf("\nPtr is pointing to the 1st Element: %d\n",*ptr);
-    printf("Ptr is pointing to the 3rd Element: %d",*ptr+2);
+    printf("\nPtr is pointing to the 1st Element: %d\n", *ptr);
+    printf("Ptr is pointing to the 3rd Element: %d", *ptr + 2);
     return 0;
 }

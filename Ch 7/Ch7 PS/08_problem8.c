@@ -28,12 +28,12 @@ int main()
     scanf("%d", &num2);
     printf("Enter the value of Third Number: ");
     scanf("%d", &num3);
-    
-    printf("\nThe table of %d:\n",num1);
+
+    printf("\nThe table of %d:\n", num1);
     table_printer(num1);
-    printf("\n\nThe table of %d:\n",num2);
+    printf("\n\nThe table of %d:\n", num2);
     table_printer(num2);
-    printf("\n\nThe table of %d:\n",num3);
+    printf("\n\nThe table of %d:\n", num3);
     table_printer(num3);
 
     return 0;

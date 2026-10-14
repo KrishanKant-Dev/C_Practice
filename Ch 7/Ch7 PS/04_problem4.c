@@ -1,22 +1,25 @@
 /*
-Repeat problem 3 for a general input provided by the user using scanf
+Write a program to create an array of 10 integers and store multiplication table of n in
+it
 */
 
 #include <stdio.h>
 
 int main()
 {
-    int my_arr[10];
-    printf("Enter the elements in Array: \n");
-    for(int i = 0 ; i <10 ; i++)
+    int num, my_arr[10];
+    printf("Enter the value of Number: ");
+    scanf("%d", &num);
+
+    for (int i = 0; i < 10; i++)
     {
-        scanf("%d",&my_arr[i]);
+        my_arr[i] = num * (i + 1);
     }
 
-    for(int i = 0 ; i <10 ; i++)
+    for (int i = 0; i < 10; i++)
     {
-        printf("%d ",my_arr[i]);
+        printf("%d * %d = %d\n", num, i + 1, my_arr[i]);
     }
-    
+
     return 0;
 }
