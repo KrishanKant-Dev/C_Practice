@@ -5,6 +5,6 @@
 int main()
 {
     char str[] = {'x','y','z','\0'}; // is as same as: xyz
-    printf("First Character is: %c",str[0]);
+    printf("First Character is: %c",str[1]);
     return 0;
 }
